@@ -14,7 +14,7 @@ body {
 
 /* Parallax Section */
 .parallax {
-    background-image: url('your-image-url-here.jpg');
+    background-image: url('twc_image.webp');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
