@@ -1,52 +1,66 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FFF8E7;
-    color: #8C4A2E;
+    font-family: 'San Francisco', Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* Parallax Section */
+.parallax {
+    background-image: url('your-image-url-here.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Styling */
 header {
-    background-color: #FFE1C0;
-    padding: 20px;
+    background-color: #f8f8f7;
+    color: #000;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
+/* Navigation Styling */
 nav ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: #000;
     text-decoration: none;
-    color: #8C4A2E;
+    font-weight: bold;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Content Sections */
 section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-footer {
-    background-color: #FFE1C0;
-    padding: 10px;
     text-align: center;
-    font-size: 12px;
+    padding: 60px 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f8f8f7;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
