@@ -4,36 +4,88 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Apple Homepage Style */
-body {
-    font-family: 'San Francisco', Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.6;
-}
 
-
+/* Parallax Background */
 .parallax {
-    background-image: url('apple_image.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-header {{
-    background-color: #000;
-    color: #fff;
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
 }
 
-nav ul li a {a {
-    color: #fff;
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
-section {{
-    padding: 100px 20px;
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-footer {{
-    background-color: #000;
-    color: #fff;
+nav li {
+    padding: 1em;
 }
-    padding: 20px 0;
-    margin-top: 40px;
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Main Content */
+main {
+    padding: 50px 15px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
+    font-family: 'San Francisco', Arial, sans-serif;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2em;
+}
+
+/* Footer */
+footer {
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 2em;
+}
+
+/* Apply parallax to specific sections if desired */
+#intro, #principles, #features, #vision, #participate {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Define individual background images for each section here */
+}
+
+@media screen and (max-width: 768px) {
+    /* Responsive tweaks for mobile */
+    nav ul {
+        flex-direction: column;
+    }
 }
