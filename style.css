@@ -4,63 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Apple Homepage Style */
 body {
     font-family: 'San Francisco', Arial, sans-serif;
-    background-color: #fff;
-    color: #333;
+    background-color: #000;
+    color: #fff;
     line-height: 1.6;
 }
 
-/* Parallax Section */
+
 .parallax {
-    background-image: url('twc_image.webp');
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('apple_image.webp');
 }
 
-/* Header Styling */
-header {
-    background-color: #f8f8f7;
-    color: #000;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+header {{
+    background-color: #000;
+    color: #fff;
 }
 
-/* Navigation Styling */
-nav ul {
-    padding: 0;
-    text-align: center;
+nav ul li a {a {
+    color: #fff;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+section {{
+    padding: 100px 20px;
 }
 
-nav ul li a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
+footer {{
+    background-color: #000;
+    color: #fff;
 }
-
-/* Content Sections */
-section {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #f8f8f7;
-    color: #000;
-    text-align: center;
     padding: 20px 0;
     margin-top: 40px;
 }
