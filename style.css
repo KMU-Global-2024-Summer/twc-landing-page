@@ -12,7 +12,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+  }
 }
 
 /* Header */
