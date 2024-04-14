@@ -76,14 +76,12 @@ body {
 /* Main Content */
 main {
   padding: 0 15px;
-  background-color: #fff; /* White background */
   color: #333; /* Dark text for contrast */
   font-family: "San Francisco", Arial, sans-serif;
 }
 
 /* Sections */
 section {
-  background-color: #fff;
   margin: 2rem 0;
   padding: 1.5rem;
 }
@@ -103,19 +101,6 @@ footer {
   padding: 10px 0;
   margin-top: 2em;
   margin-bottom: 3em;
-}
-
-/* Apply parallax to specific sections if desired */
-#intro,
-#principles,
-#features,
-#vision,
-#participate {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Define individual background images for each section here */
 }
 
 h1 {
